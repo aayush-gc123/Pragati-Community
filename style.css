@@ -1,0 +1,263 @@
+
+.search-button {
+    color: white;
+  }
+
+  .content h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercsase;
+  }
+
+  .content h3 {
+    color:
+      #fff;
+    font-size: 18px !important;
+    font-style: italic;
+    line-height: 28px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  /* .content { text-align: center;
+    } / h1 { color: #333; / Heading color / } p { color: #555; / Subtitle
+    color / } / body{ background-color: black; } */
+  #logOut {
+    margin: 0 2rem;
+    color: white;
+  }
+
+  .hello {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .search-bar {
+    border: none;
+    color: #777;
+    font-size: 14px;
+    width: 900px;
+    resize: none;
+    font-weight: 100;
+    text-indent: 10px;
+    line-height: 48px;
+    border-radius: 0px;
+    height: 48px;
+  }
+
+  label {
+    color: white;
+    font-size:
+      1.3rem;
+  }
+
+  .ask {
+    color: black
+  }
+
+  .search-button {
+    background: crimson;
+    /*
+    Button background color / color: #fff; / Button text color */
+    padding:
+      10px 30px 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    height: 48px;
+    font-family: 'Poppins';
+  }
+
+  .hello {
+    margin: 0 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color:
+      white;
+  }
+
+  .landscape-section {
+    background-size: cover;
+    background-position:
+      center;
+    height: 70vh;
+    background-color: #141414;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color:
+      #fff;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.sticky {
+    padding: 15px 0;
+    background: #141414;
+  }
+
+  .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content:
+      space-between;
+  }
+
+  Label {
+    color: black;
+    margin: 0 1rem;
+  }
+
+  input {
+    height:
+      30px;
+  }
+
+  .navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 2rem;
+  }
+
+  .question {
+    color: crimson;
+    font-size: 2rem;
+    margin: 0 3rem;
+  }
+
+  #add {
+    color: white;
+  }
+
+  .navbar .logo a span {
+    color: crimson;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.sticky .logo a span {
+    color: #fff;
+  }
+
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+
+  #question {
+    color: black;
+    font-size: 15px;
+    opacity: 1;
+  }
+
+  .navbar .menu li a:hover {
+    color: crimson;
+  }
+
+  .navbar.sticky .menu li a:hover {
+    color: #fff;
+  }
+
+  .navbar button {
+    background: crimson;
+    border-radius: 10px;
+    border: 1px solid crimson;
+    font-size: 18px;
+    margin-right: 8px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .navbar button:hover {
+    background-color: #141414;
+    transition: 0.6ms ease;
+  }
+
+  .button {
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    transform: translate(-50%,
+        -50%);
+    width: 180px;
+    margin-top: 80px;
+  }
+
+  .btn {
+    border: 2px solid white;
+    background-color: 00FFFFFF;
+    color: white;
+    padding: 14px 28px;
+    font-size:
+      16px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 15px;
+    text-decoration:
+      none;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-top: 2%;
+    width: 100%;
+    min-width: 50px;
+    max-width: 300px;
+  }
+
+  .button :hover {
+    background-color: #959595;
+    color:
+      white;
+    border: 2px solid white;
+    transition: all 0.8s ease;
+  }
+
+  .ques {
+    /*
+    border: 1px solid black; */
+    margin: 0 7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .submit {
+    background-color: crimson;
+    height: 30px;
+    width: 80px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .replis {
+    margin: 0 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .replis h2 {
+    color:
+      crimson;
+  }

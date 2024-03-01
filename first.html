@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Pragati Community</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#"><span>Pragati Community</span></a></div>
+      <ul class="menu">
+        <li>
+          <button onclick="location.href='/logOut'" id="logOut">Logout
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="landscape-section" {{!
+    style="background-image: url('../tempelates/421432391_667740548670336_3268159434136958660_n.jpg');" }}>
+    <div class="content">
+      <form action="/add-question" method="post">
+
+        <h2>HAVE A QUESTION?</h2>
+        <h3 id="text">If you have any questions you can ask below or enter what you are
+          looking for!</h3>
+
+        <input type="text" id="question" name="question" class="search-bar" placeholder="Type your question here"
+          required />
+        <input type="hidden" name="name" value="{{naming}}" />
+        <button type="submit" class="search-button">Add Question</button>
+      </form>
+
+    </div>
+  </div>
+
+  <div class="User">
+    <br />
+    <h3 class="question">Questions:</h3>
+    <br />
+    <div class="ques">
+      {{#each questions}}
+      {{user.name}}
+
+      <p class="ask">Asked:
+        <a href="/question/{{this._id}}">{{question}}</a>
+      </p>
+      {{/each}}
+    </div>
+  </div>
+
+</body>
+
+</html>
