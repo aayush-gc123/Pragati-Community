@@ -11,5 +11,5 @@ export default page
 
 //setting page title
 export const metadata = {
-  title : "Login - Get Me a CHAI",
+  title : "Login - Pragati Community",
 }

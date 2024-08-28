@@ -1,23 +1,58 @@
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.copyright{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+// styles/footer.scss
 
-.footerLinks ul{
-    margin: 0;
+footer {
+    background: rgba(0, 0, 0, 0.7); // Dark semi-transparent background similar to the navbar
+    color: white;
+    padding: 20px 30px;
+    position: relative;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .copyright {
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+    color: #ccc; // Lighter text color for copyright notice
+  }
+  
+  .footerLinks {
+    margin-bottom: 15px;
+  }
+  
+  .footerLinks ul {
+    list-style: none;
     padding: 0;
     display: flex;
-    list-style-type: none;
-    gap: 22px;
-}
-.socials{
-    display: flex;
-    gap: 20px;
     justify-content: center;
-}
+    gap: 20px;
+  }
+  
+  .footerLinks li {
+    display: inline;
+  }
+  
+  .footerLinks a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footerLinks a:hover {
+    color: #feb47b; // Highlight color on hover
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .socials a {
+    display: inline-block;
+  }
+  
+  .socials img {
+    vertical-align: middle;
+  }
+  

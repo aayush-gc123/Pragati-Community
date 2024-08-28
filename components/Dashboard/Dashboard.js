@@ -8,6 +8,7 @@ import { fetchUser, updateProfile } from '@/actions/useractions';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bounce } from 'react-toastify';
+import './page.scss'
 
 const Dashboard = () => {
     const { data: session } = useSession();
@@ -109,13 +110,13 @@ const Dashboard = () => {
                     </div>
 
                     <div className='inputDiv'>
-                        <label htmlFor="razorpayId">Razorpay Id</label>
-                        <input value={form.razorpayId ? form.razorpayId : ""} onChange={handleChange} name='razorpayId' id='razorpayId' type="password" />
+                        <label htmlFor="easewayId">easeway Id</label>
+                        <input value={form.easewayId ? form.easewayId : ""} onChange={handleChange} name='easewayId' id='easewayId' type="password" />
                     </div>
 
                     <div className='inputDiv'>
-                        <label htmlFor="razorpaySecret">Razorpay Secret</label>
-                        <input value={form.razorpaySecret ? form.razorpaySecret : ""} onChange={handleChange} name='razorpaySecret' id='razorpaySecret' type="password" />
+                        <label htmlFor="easewaySecret">easeway Secret</label>
+                        <input value={form.easewaySecret ? form.easewaySecret : ""} onChange={handleChange} name='easewaySecret' id='easewaySecret' type="password" />
                     </div>
 
                     <button type='submit'> Save </button>

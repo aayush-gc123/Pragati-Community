@@ -163,9 +163,9 @@ const PaymentPage = ({ username }) => {
                             <button className='payBtn' disabled={paymentform.name.length < 3 || paymentform.name.length > 8 || paymentform.message.length < 2 || paymentform.message.length > 18 || paymentform.amount < 1 || paymentform.amount > 50000 || paymentform.amount.toString().split('.')[1]?.length > 2} onClick={() => { pay(paymentform.amount * 100) }} >Pay</button>
 
                             <div className="instantPay">
-                                <button disabled={paymentform.name.length < 3 || paymentform.name.length > 8 || paymentform.message.length < 2 || paymentform.message.length > 18} onClick={() => { pay(2000) }}>Pay ₹20</button>
-                                <button disabled={paymentform.name.length < 3 || paymentform.name.length > 8 || paymentform.message.length < 2 || paymentform.message.length > 18} onClick={() => { pay(3000) }}>Pay ₹30</button>
-                                <button disabled={paymentform.name.length < 3 || paymentform.name.length > 8 || paymentform.message.length < 2 || paymentform.message.length > 18} onClick={() => { pay(5000) }}>Pay ₹50</button>
+                                <button disabled={paymentform.name.length < 3 || paymentform.name.length > 8 || paymentform.message.length < 2 || paymentform.message.length > 18} onClick={() => { pay(20000) }}>Pay 200</button>
+                                <button disabled={paymentform.name.length < 3 || paymentform.name.length > 8 || paymentform.message.length < 2 || paymentform.message.length > 18} onClick={() => { pay(3000) }}>Pay 300</button>
+                                <button disabled={paymentform.name.length < 3 || paymentform.name.length > 8 || paymentform.message.length < 2 || paymentform.message.length > 18} onClick={() => { pay(5000) }}>Pay 500</button>
                             </div>
                         </div>
                     </div>

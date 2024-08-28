@@ -4,8 +4,8 @@ import "./globals.css";
 import SessionWrapper from "@/components/SessionWrapper";
 
 export const metadata = {
-  title: "Get me a CHAI",
-  description: "A patreon website for generating funds from followers and fans",
+  title: "Pragati Community",
+  description: "A platform for studensts and learners.",
 };
 
 

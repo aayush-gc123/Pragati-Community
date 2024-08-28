@@ -1,0 +1,156 @@
+/* styles/page.module.css */
+
+/* General container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f4f4f9; /* Light background for a clean look */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    background: #007bff; /* Main color for header background */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: italic;
+    color: #e0e0e0;
+  }
+  
+  /* Main content styles */
+  .main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .introduction {
+    max-width: 800px;
+    width: 100%;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .introduction p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    margin-bottom: 20px;
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  /* Button styling */
+  .button {
+    display: inline-block;
+    background: #007bff; /* Primary color for button */
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .button:hover {
+    background: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Footer styling */
+  .footer {
+    background: #ffffff;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .footer p {
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .header p {
+      font-size: 1rem;
+    }
+  
+    .introduction h2 {
+      font-size: 2rem;
+    }
+  
+    .introduction p {
+      font-size: 1rem;
+    }
+  
+    .button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      padding: 40px 20px;
+    }
+  
+    .introduction {
+      padding: 20px;
+    }
+  
+    .button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  

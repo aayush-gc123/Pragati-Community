@@ -1,33 +1,75 @@
-.social_auth_container{
+/* page.scss */
+
+.social_auth_container {
     display: flex;
     flex-direction: column;
-    gap: 3px;
     align-items: center;
-    position: relative;
-    background-color: #f0dbc0;
-    width: 1266px;
-    min-height: 50vh;
-    padding: 120px 0;
-    button:hover{
-        background-color:  #e0ceb5;
+    justify-content: center;
+    height: 100vh;
+    background: #121212; /* Dark background for a sleek look */
+    color: #ffffff; /* Light text color */
+    padding: 2rem; /* Spacing around the container */
+  }
+  
+  .social_auth_container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f1f1f; /* Dark background for buttons */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 1rem 2rem;
+    border-radius: 12px; /* Rounded corners for a modern look */
+    font-size: 1rem; /* Standard font size */
+    font-weight: 500;
+    margin: 0.5rem 0;
+    width: 280px; /* Consistent width for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  }
+  
+  .social_auth_container button:hover {
+    background: #333333; /* Slightly lighter grey on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px); /* Lift effect on hover */
+  }
+  
+  .google {
+    background: #db4437; /* Google red */
+  }
+  
+  .github {
+    background: #333333; /* GitHub black */
+  }
+  
+  .email {
+    background: #4285f4; /* Google blue */
+  }
+  
+  .facebook {
+    background: #3b5998; /* Facebook blue */
+  }
+  
+  .social_auth_container img {
+    margin-right: 0.8rem; /* Space between icon and text */
+    vertical-align: middle;
+  }
+  
+  .social_auth_container span {
+    color: #ffffff; /* White text color */
+    font-size: 1rem; /* Consistent font size */
+  }
+  
+  @media (max-width: 768px) {
+    .social_auth_container {
+      padding: 1.5rem;
     }
-    button{
-        background-color: transparent;
-        border: 1px solid grey;
-        width: 350px;
-        height: 50px;
-        border-radius: 25px;
-        display: flex;
-        gap: 35px;
-        align-items: center;
-        justify-content: center;
-        span{
-            width: 70%;
-            font-size: large;
-            text-align: center;
-        }
-        img{
-            padding: 5px;
-        }
+  
+    .social_auth_container button {
+      width: 100%; /* Full width on smaller screens */
     }
-}
+  }
+    
+  

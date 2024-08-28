@@ -11,5 +11,5 @@ export default DashboardPage
 
 //setting page title
 export const metadata = {
-  title : "Dashboard - Get Me a CHAI",
+  title : "Dashboard - Pragati Community",
 }
