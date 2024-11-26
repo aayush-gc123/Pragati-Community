@@ -1,7 +1,8 @@
 
 # Pragati Community
 
-Welcome to **Pragati Community** – a vibrant and inclusive platform dedicated to empowering learners and developers to explore, innovate, and connect. Our community is built to foster growth, celebrate diversity, and inspire meaningful connections among individuals passionate about technology and continuous learning.
+Welcome to **Pragati Community** – a vibrant and inclusive platform dedicated to empowering learners and developers to explore,![Screenshot 2024-11-26 174414](https://github.com/user-attachments/assets/1884592a-b5e1-4da9-ac58-8758dfefe7ac)
+ innovate, and connect. Our community is built to foster growth, celebrate diversity, and inspire meaningful connections among individuals passionate about technology and continuous learning.
 
 
 
